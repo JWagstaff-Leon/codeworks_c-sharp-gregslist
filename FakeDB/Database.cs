@@ -18,9 +18,11 @@ namespace w10d2.FakeDB
             new House(2011, 1, 1, 1, 384, "https://thiscatdoesnotexist.com/", "minecraft joke")
         };
         
-        // public static List<Job> Jobs { get; set; } = new List<Job>()
-        // {
-        //     // TODO fake data goes here
-        // };
+        public static List<Job> Jobs { get; set; } = new List<Job>()
+        {
+            new Job("Pizza Genius", 10, 34, "Make da pizza", "Enduro Inc."),
+            new Job("Facilites Engineer 1", 13, 40, "Certified Pool and Spa Operator", "YMCA of Snohomish County"),
+            new Job("Woodworker", 10, 40, "A surprising number of cats involved", "DC Woodworks")
+        };
     }
 }
